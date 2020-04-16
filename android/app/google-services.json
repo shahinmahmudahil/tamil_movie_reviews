@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "724192272175",
+    "firebase_url": "https://movie-reviews-fbcbc.firebaseio.com",
+    "project_id": "movie-reviews-fbcbc",
+    "storage_bucket": "movie-reviews-fbcbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724192272175:android:05634353a0bb6cd2e54bda",
+        "android_client_info": {
+          "package_name": "com.fliitt.moviereviews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724192272175-uh3v6b758aqk79aainil50fklk6oiusk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTf8Y8ivpn9XR1QEyijyqyx7RmuqXOau4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724192272175-uh3v6b758aqk79aainil50fklk6oiusk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
