@@ -77,4 +77,5 @@ dependencies {
     //Multidex
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.google.ads.mediation:facebook:5.8.0.0'
+
 }

@@ -637,7 +637,7 @@ class _NewsFeedsState extends State<NewsFeeds> {
 
       case AdLoadState.loadCompleted:
         setState(() {
-          _height = 200;
+          _height = 330;
         });
         break;
 

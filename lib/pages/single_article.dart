@@ -216,6 +216,7 @@ class _SingleArticleState extends State<SingleArticle> {
                     adUnitID: nativeAdId,
                     controller: _nativeAdController,
 
+
                     // Don't show loading widget when in loading state
                     loading: Container(),
                   ),
