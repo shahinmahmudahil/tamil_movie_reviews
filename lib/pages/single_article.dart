@@ -8,7 +8,7 @@ import 'package:moviereviews/widgets/cached_network_image_widget.dart';
 import 'package:moviereviews/models/article.dart';
 import 'package:moviereviews/widgets/youtube_player.dart';
 import 'package:share/share.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+//import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 import 'dashboard_page.dart';
 
@@ -39,8 +39,8 @@ class _SingleArticleState extends State<SingleArticle> {
 
 
 
-    videoId = YoutubePlayer.convertUrlToId("https://www.youtube.com/watch?v=dJeoD5Sk0PA&list=RDdJeoD5Sk0PA&start_radio=1");
-    print(videoId);
+//    videoId = YoutubePlayer.convertUrlToId("https://www.youtube.com/watch?v=dJeoD5Sk0PA&list=RDdJeoD5Sk0PA&start_radio=1");
+//    print(videoId);
 
     super.initState();
   }
@@ -179,7 +179,7 @@ class _SingleArticleState extends State<SingleArticle> {
                   ],
                 ),
 
-                GestureDetector(
+              /*  GestureDetector(
                   onTap: (){
                     Navigator.of(context).push(MaterialPageRoute(builder: (context)=> YoutubePlayerPage()));
                   },
@@ -205,7 +205,7 @@ class _SingleArticleState extends State<SingleArticle> {
                       ),
                     ],
                   ),
-                ),
+                ),*/
 
                 Container(
                   height: _height,
