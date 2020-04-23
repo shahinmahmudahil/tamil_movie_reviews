@@ -561,7 +561,7 @@ class _PageDashboardState extends State<PageDashboard> {
 //
 //    bool five = ads.initialized;
 
-    ads.showBannerAd(state: this, anchorOffset: null);
+//    ads.showBannerAd(state: this, anchorOffset: null);
   }
 }
 
@@ -609,16 +609,20 @@ class _NewsFeedsState extends State<NewsFeeds> {
 
       /////////// Add native ads in between ////////
       setState(() {
-//        articles.insert(0, null);
+
+        // TODO Reveresed to show latest on top
+        articles = articles.reversed.toList();
+
+        //        articles.insert(0, null);
         int len = articles.length;
 
-        for(int k =0 ;k<len;k++){
-          if(k%2==0)
+        for(int k =0 ;k<articles.length;k++){
+          if(k%3==0)
             articles.insert(k, null);
         }
         articles.insert(articles.length, null);
 
-        print(articles);
+        print(articles.length);
       });
     });
   }
