@@ -82,7 +82,10 @@ class _PageDashboardState extends State<PageDashboard> {
           index: _selectedIndex,
           children: <Widget>[
 
-            NewsFeeds(),
+            Padding(
+              padding: const EdgeInsets.only(bottom: 54),
+              child: NewsFeeds(),
+            ),
 //            ListView.builder(
 //                itemCount: 3,
 //                itemBuilder: (context,index){
@@ -561,7 +564,7 @@ class _PageDashboardState extends State<PageDashboard> {
 //
 //    bool five = ads.initialized;
 
-//    ads.showBannerAd(state: this, anchorOffset: null);
+    ads.showBannerAd(state: this, anchorOffset: null, );
   }
 }
 
